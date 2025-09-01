@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "drums/index"
+get "drums/index", to: "drums#index"
   get "pages/home"
   get "pages/about"
   get "pages/contact"

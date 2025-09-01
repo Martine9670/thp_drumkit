@@ -17,10 +17,9 @@
 
   </head>
 
-  <body data-controller="<%= controller.controller_name %>" data-action="<%= controller.action_name %>">
-    <button id="start-drum">Démarrer le Drum Kit 🥁</button>
-
-    <%= yield %>
-  </body>
+<body data-controller="<%= controller.controller_name %>" data-action="<%= controller.action_name %>">
+  <button id="start-drum" style="display:none;">Démarrer le Drum Kit 🥁</button>
+  <%= yield %>
+</body>
 </html>
 
