@@ -1,0 +1,23 @@
+.keys {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.07s ease;
+  width: 100px;
+  user-select: none;
+}
+
+.key.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
